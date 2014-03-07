@@ -1,0 +1,182 @@
+/* >>>>>>>>>>>>>>>>>  HELPERS  <<<<<<<<<<<<<<<<<<<< */
+
+*{ margin: 0px; padding: 0px;font-family: arial; }
+
+#wrapper{
+	width:100%;
+	background:url(image_main/wood_back.jpeg);
+	}
+.center{
+	width:980px;
+	margin:0 auto;
+}	 
+.abt{
+	width:850px;
+	margin:20px auto;
+}
+ul{
+	list-style: none;
+	}
+a {
+	text-decoration: none;
+	}
+#clear{
+	clear:both;
+	}
+/* ++++++++++++++++++++++++++++++++++++++  HEADER +++++++++++++++++++++++++++++++++ */
+#header{
+
+	background:url(image_main/header.jpg);
+	color:#ddd;
+	}
+	
+#header .center{
+	height:100px;
+	background:url(image_main/header.jpg);
+	}
+
+/* ----  Site NAME --------------- */
+#sitename{
+	float:left;
+	font-size:40px;
+	line-height: 100px;
+	text-align: center;
+	width:440px;
+	}
+
+/* ------------------------------  MENU  ---- */
+#menu{
+	float:right;
+	height: 30px;
+	margin: 42px 0 0;
+	width: 400px;
+	}
+#menu a{
+	color: #eee;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 12px;
+	}	
+#menu a:hover{
+background:#1E90FF; 
+	}
+/* ---------------------------- PREVIEW ------------------------------ */
+
+#preview{
+		height: 450px;
+	}
+#preview .center{
+	height:450px;
+	}
+
+
+
+#topic a{
+	color:#FFF;
+	font-weight: bold;
+	}
+
+
+/* -------------------- ------  CONTENT  -------- ------------------ */
+
+#container{
+	height: 420px;
+	}
+#center_container{
+	background:#DDD;
+	height:420px;
+	width: 980px;
+	margin: 0 auto;
+	}
+#sidebar{
+	float:left;
+	width:280px;
+	margin:30px;
+	padding-bottom: 10px;
+	background:#DDD;
+}
+#sidebar p{
+font-family:cursive;
+font-size:18px;
+}
+	#a{
+background:#DDD;
+	height:250px;
+	width: 200px;
+	margin: 100px 0px auto 50px;
+}
+#s{
+background:#DDD;
+	height:250px;
+	width: 200px;
+	margin: 30px 0px auto 50px;
+
+}
+#o{
+background:#DDD;
+	height:250px;
+	width: 200px;
+	margin: 30px 0px auto 300px;
+}
+.n
+{
+display:inline-block;
+}
+
+#content{
+	width:620px;
+	margin:30px 10px 10px 0;
+	background: #EEE;
+	height:350px;
+	font-size:14px;
+	float:right;
+	}
+	
+
+
+/* ---------------------------  FOOTER  ------------------------- */
+
+#footer{
+	height:130px;
+	}
+#center_footer{
+	background:#000;
+	height: 130px;
+	width: 980px;
+	margin:0 auto;
+	}
+#left_footer,#right_footer {
+	width:450px;
+	padding:20px;
+	float:left;
+	}
+#left_footer b{
+	color:#fff;
+	}
+#left_footer li{
+	float:left;
+	margin:10px 20px;
+	}
+#left_footer img{
+	width:60px; height:60px;
+	}
+
+#right_footer{
+	float:right;
+	}
+#right_footer a{ 
+	color:#aaa;
+	padding:0 5px 0 70px;
+	margin-right:10px;
+	line-height: 21px;
+	font-size: 13px;
+	font-weight:bold;
+	}
+
+#footer span{
+	color:#ccc;
+	font-size: 13px;
+	margin-left:20px;
+	}
+
+
